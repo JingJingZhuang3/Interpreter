@@ -1,0 +1,29 @@
+push 1.0
+push -1.0
+push hey
+push zzz
+pop
+push 5
+pop
+push :false:
+push :true:
+push 11
+push 6
+if
+push 2
+if
+push name1
+push name2
+toString
+println
+toString
+println
+toString
+println
+toString
+println
+toString
+println
+toString
+println
+quit

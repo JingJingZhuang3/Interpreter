@@ -1,0 +1,22 @@
+push 5
+push :true:
+push :false:
+push "str1"
+push str1
+push :error:
+push :unit:
+toString
+println
+toString
+println
+toString
+println
+toString
+println
+toString
+println
+toString
+println
+toString
+println
+quit

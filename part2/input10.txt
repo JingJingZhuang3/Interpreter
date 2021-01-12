@@ -1,0 +1,33 @@
+push :unit:
+push name1
+push 5
+bind
+push name3
+push unbound_name
+bind
+push name4
+push :unit:
+bind
+push name5
+push "somehow I manage, over 1 billion sold"
+bind
+push name6
+push :true:
+bind
+toString
+println
+toString
+println
+toString
+println
+toString
+println
+toString
+println
+toString
+println
+toString
+println
+toString
+println
+quit

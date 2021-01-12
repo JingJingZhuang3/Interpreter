@@ -1,0 +1,29 @@
+push :unit:
+push :error:
+swap
+push x
+push num0
+pop
+push num1
+push 8
+bind
+push num2
+push 9
+bind
+push num3
+push num4
+toString
+println
+toString
+println
+toString
+println
+toString
+println
+toString
+println
+toString
+println
+toString
+println
+quit

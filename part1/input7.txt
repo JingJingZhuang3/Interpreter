@@ -1,0 +1,13 @@
+add
+push -8
+push 4
+push -2
+mul
+mul
+push 3
+rem
+toString
+println
+toString
+println
+quit

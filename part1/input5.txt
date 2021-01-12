@@ -1,0 +1,11 @@
+push :true:
+push 7
+push 8
+push :false:
+pop
+mul
+toString
+println
+toString
+println
+quit

@@ -1,0 +1,39 @@
+push 50
+push :true:
+not
+push :false:
+push :true:
+and
+or
+not
+push :error:
+push :unit:
+if
+push :false:
+push true
+push false
+if
+push 3
+push 10
+lessThan
+push :true:
+and
+push 30
+push 30
+equal
+push "str1"
+push "str2"
+if
+push "str3"
+cat
+toString
+println
+toString
+println
+toString
+println
+toString
+println
+toString
+println
+quit

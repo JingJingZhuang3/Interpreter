@@ -1,0 +1,8 @@
+push 500
+push 2
+mul
+push 2
+div
+toString
+println
+quit

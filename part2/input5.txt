@@ -1,0 +1,27 @@
+push coolname
+push coolname
+push a
+push 5
+bind
+push b
+push 10
+bind
+push a
+push b
+add
+push 3
+div
+push coolername
+toString
+println
+toString
+println
+toString
+println
+toString
+println
+toString
+println
+toString
+println
+quit

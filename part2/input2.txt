@@ -1,0 +1,21 @@
+push :true:
+push :true:
+push 3
+and
+push 5
+push 10
+add
+push :true:
+toString
+println
+toString
+println
+toString
+println
+toString
+println
+toString
+println
+toString
+println
+quit

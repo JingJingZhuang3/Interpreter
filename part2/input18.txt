@@ -1,0 +1,50 @@
+push 4.0
+push string1
+push a
+push :true:
+bind
+push b
+push :false:
+bind
+push c
+push :true:
+bind
+push d
+push :false:
+bind
+push a
+push c
+and
+push d
+or
+not
+push a
+and
+push :true:
+or
+push 10
+push 5
+if
+push e
+swap
+bind
+push e
+push e
+mul
+toString
+println
+toString
+println
+toString
+println
+toString
+println
+toString
+println
+toString
+println
+toString
+println
+toString
+println
+quit

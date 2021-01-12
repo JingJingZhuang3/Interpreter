@@ -1,0 +1,25 @@
+push 20
+push 10
+sub
+push " S c h r u t e "
+push K
+push "Dwight"
+push THE_OFFICE_
+push a
+push b
+swap
+toString
+println
+toString
+println
+toString
+println
+toString
+println
+toString
+println
+toString
+println
+toString
+println
+quit

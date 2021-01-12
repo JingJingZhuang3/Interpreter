@@ -1,0 +1,64 @@
+push 5
+push 13
+push 100
+push 1000
+pop
+push 23
+pop
+let
+push x
+push a
+push 56
+bind
+let
+push b
+push 61
+bind
+let
+push b
+push a
+sub
+end
+push c
+swap
+bind
+push abc
+push 70
+bind
+push c
+push c
+mul
+end
+push twenty5
+swap
+bind
+push abc
+push 60
+add
+push twenty5
+push 1
+mul
+end
+push 25
+equal
+push abc
+push 7
+add
+push 50
+toString
+println
+toString
+println
+toString
+println
+toString
+println
+toString
+println
+toString
+println
+toString
+println
+toString
+println
+quit

@@ -1,0 +1,17 @@
+push x
+let
+push 5
+push -1560
+add
+end
+let
+push 10
+push -13
+add
+end
+mul
+toString
+println
+toString
+println
+quit

@@ -1,0 +1,81 @@
+push bigName____
+push :error:
+bind
+push :false:
+push 5
+pop
+push 50
+pop
+push 500
+pop
+push _X
+push 19
+bind
+push _X
+push 110
+bind
+push _X
+push _X
+add
+push _X
+push "19"
+bind
+push _X
+push 19
+mul
+push b
+push 15
+bind
+push c
+swap
+bind
+push d
+push :true:
+bind
+push c
+push d
+bind
+push d
+push c
+and
+push "why was 6 afraid of 7?  because 7 8 "
+push _X
+push "!"
+cat
+cat
+push 30
+toString
+println
+toString
+println
+toString
+println
+toString
+println
+toString
+println
+toString
+println
+toString
+println
+toString
+println
+toString
+println
+toString
+println
+toString
+println
+toString
+println
+toString
+println
+toString
+println
+toString
+println
+toString
+println
+toString
+println
+quit

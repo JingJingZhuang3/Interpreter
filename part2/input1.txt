@@ -1,0 +1,20 @@
+push x
+push x
+push 4
+pop
+push :true:
+push :false:
+and
+not
+push :false:
+or
+push 3
+toString
+println
+toString
+println
+toString
+println
+toString
+println
+quit

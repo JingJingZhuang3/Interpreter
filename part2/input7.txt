@@ -1,0 +1,44 @@
+push "str1"
+push str2
+push str3
+push 1
+pop
+push 3
+pop
+let
+push 5
+end
+pop
+let
+push c
+push 17
+bind
+let
+push a
+push 3
+bind
+push a
+push c
+add
+end
+let
+push b
+push "ronaldo"
+bind
+end
+end
+push 30
+push 40
+toString
+println
+toString
+println
+toString
+println
+toString
+println
+toString
+println
+toString
+println
+quit
