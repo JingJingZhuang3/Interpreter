@@ -1,0 +1,37 @@
+inOutFun sin theta
+push theta
+push 0
+push theta
+equal
+push 0
+push 1
+if
+bind
+push theta
+funEnd
+push x
+push 90
+bind
+push sin
+push x
+call
+push x
+push x
+add
+toString
+println
+toString
+println
+toString
+println
+toString
+println
+toString
+println
+toString
+println
+toString
+println
+toString
+println
+quit

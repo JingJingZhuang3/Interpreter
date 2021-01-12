@@ -1,0 +1,28 @@
+fun name1 name2
+name1 	-> function name
+	-> any valid name
+	-> != (add, push, pop, fun, funEnd)
+	-> != name2
+
+name2	-> parameter
+	-> any valid name
+	-> != (add, push, pop, fun, funEnd)
+	-> != name1
+
+funEnd 	-> function terminated
+function declare后-> push :unit:
+
+push funName
+push arg
+call
+if func and arg both are names
+then func bound and arg bound
+or func bound arg unbound -> error
+or func unbound arg bound -> is func exist in funbind
+arg	-> type of const (except Error)
+call	-> pop funName and arg
+	-> check is funName 和 arg 是否在funBind里面
+		*否-> 不pop并加:error: onto the stack
+	-> 如果arg=:error: -> push :error: onto stack
+	-> If both funName and arg have appropriate bindings
+	   or arg is a valid value -> call the funcition

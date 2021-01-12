@@ -1,0 +1,31 @@
+fun expr1 b
+push b
+push b
+mul
+return
+funEnd
+fun expr2 a
+push c
+push 5
+bind
+push 4
+push a
+mul
+push c
+mul
+return
+funEnd
+push expr1
+push 7
+call
+push expr2
+push 2
+call
+sub
+toString
+println
+toString
+println
+toString
+println
+quit

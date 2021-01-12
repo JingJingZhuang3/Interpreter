@@ -1,0 +1,29 @@
+push x
+push 3
+bind
+fun addX arg
+push x
+push arg
+add
+return
+funEnd
+push x
+push 5
+bind
+push a
+push 3
+bind
+push addX
+push a
+call
+toString
+println
+toString
+println
+toString
+println
+toString
+println
+toString
+println
+quit

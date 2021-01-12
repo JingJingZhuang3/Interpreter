@@ -1,0 +1,36 @@
+inOutFun always8 x
+push x
+push 8
+bind
+funEnd
+pop
+let
+push x
+push 1
+bind
+let
+push x
+push 2
+bind
+let
+push x
+push 3
+bind
+push always8
+push x
+call
+push x
+push x
+add
+end
+push x
+push x
+add
+end
+push x
+push x
+add
+end
+toString
+println
+quit

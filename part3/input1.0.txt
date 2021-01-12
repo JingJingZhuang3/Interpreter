@@ -1,0 +1,22 @@
+fun identity x
+push x
+return
+funEnd
+fun _catExcl y
+push y
+push "!"
+cat
+return
+funEnd
+push identity
+push _catExcl
+call
+push "Dunder Mifflin"
+call
+toString
+println
+toString
+println
+toString
+println
+quit

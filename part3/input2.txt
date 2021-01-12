@@ -1,0 +1,14 @@
+fun fun1 x
+push "Function 1"
+return
+funEnd
+fun dummy y
+push "Dummy"
+funEnd
+pop
+push fun1
+swap
+call
+toString
+println
+quit

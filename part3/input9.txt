@@ -1,0 +1,23 @@
+fun exp1 x
+push "Definition 1"
+return
+funEnd
+push exp1
+push :unit:
+call
+fun exp1 x
+push "Definition 2"
+return
+funEnd
+push exp1
+push :unit:
+call
+toString
+println
+toString
+println
+toString
+println
+toString
+println
+quit

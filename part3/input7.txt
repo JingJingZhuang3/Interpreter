@@ -1,0 +1,19 @@
+inOutFun always2 x
+push x
+push 2
+bind
+funEnd
+pop
+push a
+push 3
+bind
+pop
+push always2
+push a
+call
+push a
+push a
+add
+toString
+println
+quit

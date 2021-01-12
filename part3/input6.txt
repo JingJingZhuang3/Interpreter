@@ -1,0 +1,30 @@
+fun F f
+push :false:
+return
+funEnd
+fun T t
+push :true:
+return
+funEnd
+fun choose a
+push a
+push T
+push F
+if
+return
+funEnd
+push :true:
+push choose
+push :false:
+call
+swap
+call
+toString
+println
+toString
+println
+toString
+println
+toString
+println
+quit

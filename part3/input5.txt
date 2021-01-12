@@ -1,0 +1,36 @@
+let
+push y
+push 15
+bind
+fun fun1 x
+push x
+push x
+push x
+add
+bind
+return
+funEnd
+push fun1
+push y
+call
+push y
+push 1
+add
+end
+push y
+push 15
+bind
+push fun1
+push y
+call
+toString
+println
+toString
+println
+toString
+println
+toString
+println
+toString
+println
+quit
